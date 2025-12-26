@@ -1,0 +1,24 @@
+{"ts":"2025-12-26T09:58:10Z","system":"hvac","level":"INFO","msg":"Temperature normal","host":"dc01","code":"TEMP_OK"}
+{"ts":"2025-12-26T09:59:05Z","system":"power","level":"INFO","msg":"Voltage within range","host":"dc02","code":"VOLT_OK"}
+
+{"ts":"2025-12-26T10:01:02Z","system":"hvac","level":"WARN","msg":"Supply air temperature high","host":"dc01","code":"TEMP_HIGH"}
+{"ts":"2025-12-26T10:02:11Z","system":"hvac","level":"ERROR","msg":"Compressor trip detected","host":"dc01","code":"COMP_TRIP"}
+{"ts":"2025-12-26T10:02:40Z","system":"power","level":"ERROR","msg":"Breaker alert on feed B","host":"dc02","code":"BRKR_ALERT"}
+{"ts":"2025-12-26T10:03:15Z","system":"cooling","level":"WARN","msg":"Chilled water flow reduced","host":"dc01","code":"FLOW_LOW"}
+{"ts":"2025-12-26T10:04:05Z","system":"hvac","level":"WARN","msg":"Return air temperature rising","host":"dc01","code":"TEMP_RISE"}
+{"ts":"2025-12-26T10:05:30Z","system":"power","level":"INFO","msg":"Automatic load transfer completed","host":"dc02","code":"LOAD_XFER"}
+
+{"ts":"2025-12-26T10:12:00Z","system":"hvac","level":"INFO","msg":"Temperature stabilized","host":"dc01","code":"TEMP_OK"}
+
+{"ts":"2025-12-26T10:20:45Z","system":"power","level":"WARN","msg":"Voltage dip detected","host":"dc03","code":"VOLT_DIP"}
+{"ts":"2025-12-26T10:21:10Z","system":"power","level":"ERROR","msg":"UPS on battery","host":"dc03","code":"UPS_BATT"}
+{"ts":"2025-12-26T10:21:55Z","system":"power","level":"ERROR","msg":"Generator start failure","host":"dc03","code":"GEN_FAIL"}
+{"ts":"2025-12-26T10:22:40Z","system":"power","level":"ERROR","msg":"Critical load shed","host":"dc03","code":"LOAD_SHED"}
+{"ts":"2025-12-26T10:23:10Z","system":"monitoring","level":"WARN","msg":"Multiple power alarms active","host":"dc03","code":"MULTI_PWR"}
+
+{"ts":"2025-12-26T10:30:00Z","system":"power","level":"INFO","msg":"Utility power restored","host":"dc03","code":"UTIL_OK"}
+{"ts":"2025-12-26T10:31:15Z","system":"power","level":"INFO","msg":"UPS returned to normal","host":"dc03","code":"UPS_OK"}
+
+{"ts":"2025-12-26T10:45:00Z","system":"hvac","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-26T10:46:30Z","system":"cooling","level":"INFO","msg":"Chiller operating normally","host":"dc01","code":"CHILL_OK"}
+{"ts":"2025-12-26T10:50:00Z","system":"monitoring","level":"INFO","msg":"No active alarms","host":"dc-all","code":"CLEAR"}
