@@ -1,4 +1,16 @@
 mod model;
-fn main() {
-    println!("Hello, world!");
+mod parse;
+
+use anyhow::Result;
+
+fn main() -> Result<()> {
+    let events = parse::parse_jsonl("sample_data/logs.jsonl")?;
+    println!("Loaded {} events", events.len());
+
+    // print the first 3 to check parsing
+    for e in events.iter().take(3) {
+        println!("{:?}", e);
+    }
+
+    Ok(())
 }
