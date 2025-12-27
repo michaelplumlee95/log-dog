@@ -14,7 +14,7 @@
 {"ts":"2025-12-26T10:21:10Z","system":"power","level":"ERROR","msg":"UPS on battery","host":"dc03","code":"UPS_BATT"}
 {"ts":"2025-12-26T10:21:55Z","system":"power","level":"ERROR","msg":"Generator start failure","host":"dc03","code":"GEN_FAIL"}
 {"ts":"2025-12-26T10:22:40Z","system":"power","level":"ERROR","msg":"Critical load shed","host":"dc03","code":"LOAD_SHED"}
-{"ts":"2025-12-26T10:22:40Z","system":"power","level":"ERROR","msg":"Loss of bus 3B","host":"dc03","code":"POWER_LOSS"}
+{"ts":"2025-12-26T10:22:43Z","system":"power","level":"ERROR","msg":"Loss of bus 3B","host":"dc03","code":"POWER_LOSS"}
 {"ts":"2025-12-26T10:23:10Z","system":"monitoring","level":"WARN","msg":"Multiple power alarms active","host":"dc03","code":"MULTI_PWR"}
 
 {"ts":"2025-12-26T10:30:00Z","system":"power","level":"INFO","msg":"Utility power restored","host":"dc03","code":"UTIL_OK"}

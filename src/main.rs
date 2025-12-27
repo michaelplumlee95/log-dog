@@ -5,7 +5,7 @@ mod parse;
 use anyhow::Result;
 
 fn main() -> Result<()> {
-    let events = parse::parse_jsonl("sample_data/logs.jsonl")?;
+    let events = parse::parse_jsonl("sample_data/generated.jsonl")?;
     println!("Loaded {} events", events.len());
 
     /*

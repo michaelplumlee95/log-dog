@@ -1,0 +1,399 @@
+{"ts":"2025-12-27T14:40:45.243185Z","system":"cooling","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T14:40:53.243185Z","system":"monitoring","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T14:40:58.243185Z","system":"monitoring","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T14:40:58.243185Z","system":"power","level":"INFO","msg":"No active alarms","host":"dc01","code":"CLEAR"}
+{"ts":"2025-12-27T14:42:46.243185Z","system":"cooling","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T14:43:00.243185Z","system":"cooling","level":"INFO","msg":"Operating normally","host":"dc03","code":"OK"}
+{"ts":"2025-12-27T14:43:42.243185Z","system":"monitoring","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T14:43:46.243185Z","system":"power","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T14:44:15.243185Z","system":"monitoring","level":"WARN","msg":"Minor fluctuation detected","host":"dc03","code":"FLUX"}
+{"ts":"2025-12-27T14:44:52.243185Z","system":"monitoring","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T14:45:44.243185Z","system":"cooling","level":"INFO","msg":"No active alarms","host":"dc03","code":"CLEAR"}
+{"ts":"2025-12-27T14:46:07.243185Z","system":"cooling","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T14:46:19.243185Z","system":"power","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T14:46:45.243185Z","system":"hvac","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T14:47:23.243185Z","system":"hvac","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T14:47:29.243185Z","system":"cooling","level":"INFO","msg":"Routine status check","host":"dc03","code":"STATUS_OK"}
+{"ts":"2025-12-27T14:47:57.243185Z","system":"monitoring","level":"INFO","msg":"Routine status check","host":"dc03","code":"STATUS_OK"}
+{"ts":"2025-12-27T14:48:42.243185Z","system":"power","level":"INFO","msg":"No active alarms","host":"dc02","code":"CLEAR"}
+{"ts":"2025-12-27T14:50:07.243185Z","system":"hvac","level":"INFO","msg":"No active alarms","host":"dc01","code":"CLEAR"}
+{"ts":"2025-12-27T14:50:50.243185Z","system":"power","level":"INFO","msg":"No active alarms","host":"dc03","code":"CLEAR"}
+{"ts":"2025-12-27T14:52:53.243185Z","system":"power","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T14:53:17.243185Z","system":"monitoring","level":"INFO","msg":"Operating normally","host":"dc03","code":"OK"}
+{"ts":"2025-12-27T14:53:33.243185Z","system":"monitoring","level":"INFO","msg":"No active alarms","host":"dc01","code":"CLEAR"}
+{"ts":"2025-12-27T14:53:59.243185Z","system":"cooling","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T14:54:11.243185Z","system":"cooling","level":"INFO","msg":"Routine status check","host":"dc03","code":"STATUS_OK"}
+{"ts":"2025-12-27T14:54:36.243185Z","system":"power","level":"INFO","msg":"No active alarms","host":"dc01","code":"CLEAR"}
+{"ts":"2025-12-27T14:54:58.243185Z","system":"monitoring","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T14:55:05.243185Z","system":"cooling","level":"INFO","msg":"No active alarms","host":"dc03","code":"CLEAR"}
+{"ts":"2025-12-27T14:55:21.243185Z","system":"power","level":"INFO","msg":"No active alarms","host":"dc01","code":"CLEAR"}
+{"ts":"2025-12-27T14:55:22.243185Z","system":"power","level":"INFO","msg":"Operating normally","host":"dc03","code":"OK"}
+{"ts":"2025-12-27T14:55:57.243185Z","system":"cooling","level":"INFO","msg":"Routine status check","host":"dc03","code":"STATUS_OK"}
+{"ts":"2025-12-27T14:56:37.243185Z","system":"cooling","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T14:56:49.243185Z","system":"cooling","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T14:56:53.243185Z","system":"hvac","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T14:57:13.243185Z","system":"hvac","level":"INFO","msg":"No active alarms","host":"dc03","code":"CLEAR"}
+{"ts":"2025-12-27T14:58:22.243185Z","system":"cooling","level":"INFO","msg":"No active alarms","host":"dc01","code":"CLEAR"}
+{"ts":"2025-12-27T14:58:53.243185Z","system":"hvac","level":"INFO","msg":"Routine status check","host":"dc03","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:00:26.243185Z","system":"cooling","level":"INFO","msg":"No active alarms","host":"dc02","code":"CLEAR"}
+{"ts":"2025-12-27T15:00:33.243185Z","system":"hvac","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:00:36.243185Z","system":"cooling","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T15:02:35.243185Z","system":"monitoring","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T15:03:01.243185Z","system":"cooling","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T15:03:35.243185Z","system":"power","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T15:03:40.243185Z","system":"power","level":"INFO","msg":"No active alarms","host":"dc03","code":"CLEAR"}
+{"ts":"2025-12-27T15:03:40.243185Z","system":"cooling","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:03:51.243185Z","system":"cooling","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:04:21.243185Z","system":"monitoring","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T15:06:11.243185Z","system":"hvac","level":"INFO","msg":"No active alarms","host":"dc01","code":"CLEAR"}
+{"ts":"2025-12-27T15:06:20.243185Z","system":"power","level":"INFO","msg":"Operating normally","host":"dc03","code":"OK"}
+{"ts":"2025-12-27T15:06:54.243185Z","system":"power","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T15:07:40.243185Z","system":"cooling","level":"INFO","msg":"Operating normally","host":"dc03","code":"OK"}
+{"ts":"2025-12-27T15:09:33.243185Z","system":"cooling","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:09:53.243185Z","system":"cooling","level":"INFO","msg":"No active alarms","host":"dc03","code":"CLEAR"}
+{"ts":"2025-12-27T15:10:19.243185Z","system":"monitoring","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T15:10:47.243185Z","system":"monitoring","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T15:11:13.243185Z","system":"power","level":"INFO","msg":"Operating normally","host":"dc03","code":"OK"}
+{"ts":"2025-12-27T15:11:23.243185Z","system":"cooling","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T15:11:47.243185Z","system":"hvac","level":"INFO","msg":"No active alarms","host":"dc02","code":"CLEAR"}
+{"ts":"2025-12-27T15:12:24.243185Z","system":"monitoring","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:12:47.243185Z","system":"hvac","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:13:00.243185Z","system":"power","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T15:13:02.243185Z","system":"hvac","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:13:30.243185Z","system":"monitoring","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:14:32.243185Z","system":"monitoring","level":"INFO","msg":"Operating normally","host":"dc03","code":"OK"}
+{"ts":"2025-12-27T15:14:51.243185Z","system":"monitoring","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T15:15:22.243185Z","system":"power","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T15:16:27.243185Z","system":"monitoring","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T15:16:27.243185Z","system":"cooling","level":"INFO","msg":"No active alarms","host":"dc03","code":"CLEAR"}
+{"ts":"2025-12-27T15:16:30.243185Z","system":"monitoring","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T15:17:24.243185Z","system":"monitoring","level":"INFO","msg":"No active alarms","host":"dc02","code":"CLEAR"}
+{"ts":"2025-12-27T15:17:26.243185Z","system":"cooling","level":"INFO","msg":"No active alarms","host":"dc03","code":"CLEAR"}
+{"ts":"2025-12-27T15:17:41.243185Z","system":"hvac","level":"WARN","msg":"Minor fluctuation detected","host":"dc03","code":"FLUX"}
+{"ts":"2025-12-27T15:18:23.243185Z","system":"hvac","level":"INFO","msg":"No active alarms","host":"dc03","code":"CLEAR"}
+{"ts":"2025-12-27T15:18:36.243185Z","system":"hvac","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T15:19:01.243185Z","system":"monitoring","level":"INFO","msg":"No active alarms","host":"dc02","code":"CLEAR"}
+{"ts":"2025-12-27T15:19:15.243185Z","system":"hvac","level":"WARN","msg":"Minor fluctuation detected","host":"dc03","code":"FLUX"}
+{"ts":"2025-12-27T15:19:39.243185Z","system":"power","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:20:12.243185Z","system":"cooling","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:20:15.243185Z","system":"cooling","level":"WARN","msg":"Minor fluctuation detected","host":"dc03","code":"FLUX"}
+{"ts":"2025-12-27T15:20:22.243185Z","system":"hvac","level":"INFO","msg":"Routine status check","host":"dc03","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:20:46.243185Z","system":"monitoring","level":"INFO","msg":"Routine status check","host":"dc03","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:21:01.243185Z","system":"monitoring","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:21:18.243185Z","system":"power","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T15:22:02.243185Z","system":"power","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T15:22:47.243185Z","system":"cooling","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T15:23:04.243185Z","system":"power","level":"INFO","msg":"No active alarms","host":"dc01","code":"CLEAR"}
+{"ts":"2025-12-27T15:23:14.243185Z","system":"monitoring","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T15:24:35.243185Z","system":"power","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:24:37.243185Z","system":"hvac","level":"INFO","msg":"Routine status check","host":"dc03","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:24:58.243185Z","system":"monitoring","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T15:25:14.243185Z","system":"hvac","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:25:14.243185Z","system":"power","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:25:27.243185Z","system":"hvac","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:27:39.243185Z","system":"power","level":"INFO","msg":"No active alarms","host":"dc02","code":"CLEAR"}
+{"ts":"2025-12-27T15:28:02.243185Z","system":"cooling","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T15:28:21.243185Z","system":"hvac","level":"INFO","msg":"No active alarms","host":"dc02","code":"CLEAR"}
+{"ts":"2025-12-27T15:28:34.243185Z","system":"power","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:28:47.243185Z","system":"hvac","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:29:37.243185Z","system":"power","level":"INFO","msg":"Operating normally","host":"dc03","code":"OK"}
+{"ts":"2025-12-27T15:30:04.243185Z","system":"monitoring","level":"INFO","msg":"No active alarms","host":"dc01","code":"CLEAR"}
+{"ts":"2025-12-27T15:30:27.243185Z","system":"monitoring","level":"INFO","msg":"No active alarms","host":"dc02","code":"CLEAR"}
+{"ts":"2025-12-27T15:31:10.243185Z","system":"power","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T15:31:11.243185Z","system":"power","level":"WARN","msg":"Minor fluctuation detected","host":"dc03","code":"FLUX"}
+{"ts":"2025-12-27T15:31:16.243185Z","system":"power","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T15:32:15.243185Z","system":"power","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T15:32:31.243185Z","system":"cooling","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T15:32:43.243185Z","system":"cooling","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T15:32:51.243185Z","system":"power","level":"INFO","msg":"Operating normally","host":"dc03","code":"OK"}
+{"ts":"2025-12-27T15:32:59.243185Z","system":"cooling","level":"INFO","msg":"No active alarms","host":"dc02","code":"CLEAR"}
+{"ts":"2025-12-27T15:33:03.243185Z","system":"monitoring","level":"WARN","msg":"Minor fluctuation detected","host":"dc03","code":"FLUX"}
+{"ts":"2025-12-27T15:34:20.243185Z","system":"monitoring","level":"INFO","msg":"No active alarms","host":"dc01","code":"CLEAR"}
+{"ts":"2025-12-27T15:34:32.243185Z","system":"monitoring","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T15:34:35.243185Z","system":"hvac","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T15:34:38.243185Z","system":"monitoring","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:35:06.243185Z","system":"hvac","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:35:30.243185Z","system":"cooling","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T15:35:36.243185Z","system":"power","level":"INFO","msg":"Operating normally","host":"dc03","code":"OK"}
+{"ts":"2025-12-27T15:35:52.243185Z","system":"power","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T15:35:54.243185Z","system":"power","level":"INFO","msg":"Routine status check","host":"dc03","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:36:14.243185Z","system":"monitoring","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:37:06.243185Z","system":"cooling","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T15:37:08.243185Z","system":"cooling","level":"WARN","msg":"Minor fluctuation detected","host":"dc03","code":"FLUX"}
+{"ts":"2025-12-27T15:38:01.243185Z","system":"hvac","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T15:38:39.243185Z","system":"power","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:40:05.243185Z","system":"monitoring","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T15:40:06.243185Z","system":"cooling","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T15:40:37.243185Z","system":"hvac","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T15:41:10.243185Z","system":"cooling","level":"INFO","msg":"No active alarms","host":"dc03","code":"CLEAR"}
+{"ts":"2025-12-27T15:41:19.243185Z","system":"monitoring","level":"INFO","msg":"Routine status check","host":"dc03","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:41:33.243185Z","system":"monitoring","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T15:41:43.243185Z","system":"cooling","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T15:42:41.243185Z","system":"power","level":"INFO","msg":"Routine status check","host":"dc03","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:43:40.243185Z","system":"hvac","level":"INFO","msg":"No active alarms","host":"dc03","code":"CLEAR"}
+{"ts":"2025-12-27T15:43:54.243185Z","system":"hvac","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T15:44:08.243185Z","system":"hvac","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T15:44:10.243185Z","system":"cooling","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T15:45:13.243185Z","system":"cooling","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T15:46:45.243185Z","system":"cooling","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:46:55.243185Z","system":"hvac","level":"INFO","msg":"No active alarms","host":"dc01","code":"CLEAR"}
+{"ts":"2025-12-27T15:47:25.243185Z","system":"cooling","level":"WARN","msg":"Minor fluctuation detected","host":"dc03","code":"FLUX"}
+{"ts":"2025-12-27T15:47:27.243185Z","system":"cooling","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T15:47:56.243185Z","system":"cooling","level":"INFO","msg":"No active alarms","host":"dc01","code":"CLEAR"}
+{"ts":"2025-12-27T15:48:36.243185Z","system":"monitoring","level":"WARN","msg":"Minor fluctuation detected","host":"dc03","code":"FLUX"}
+{"ts":"2025-12-27T15:48:55.243185Z","system":"hvac","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:49:19.243185Z","system":"cooling","level":"INFO","msg":"No active alarms","host":"dc03","code":"CLEAR"}
+{"ts":"2025-12-27T15:49:28.243185Z","system":"cooling","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T15:50:46.243185Z","system":"hvac","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T15:50:46.243185Z","system":"hvac","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T15:51:22.243185Z","system":"monitoring","level":"INFO","msg":"No active alarms","host":"dc03","code":"CLEAR"}
+{"ts":"2025-12-27T15:51:37.243185Z","system":"monitoring","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T15:51:43.243185Z","system":"hvac","level":"INFO","msg":"No active alarms","host":"dc01","code":"CLEAR"}
+{"ts":"2025-12-27T15:51:52.243185Z","system":"monitoring","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:51:56.243185Z","system":"hvac","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:52:02.243185Z","system":"monitoring","level":"INFO","msg":"No active alarms","host":"dc02","code":"CLEAR"}
+{"ts":"2025-12-27T15:53:01.243185Z","system":"monitoring","level":"INFO","msg":"Operating normally","host":"dc03","code":"OK"}
+{"ts":"2025-12-27T15:53:23.243185Z","system":"power","level":"INFO","msg":"Routine status check","host":"dc03","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:53:38.243185Z","system":"monitoring","level":"INFO","msg":"Operating normally","host":"dc03","code":"OK"}
+{"ts":"2025-12-27T15:54:33.243185Z","system":"hvac","level":"INFO","msg":"No active alarms","host":"dc03","code":"CLEAR"}
+{"ts":"2025-12-27T15:55:10.243185Z","system":"monitoring","level":"WARN","msg":"Minor fluctuation detected","host":"dc03","code":"FLUX"}
+{"ts":"2025-12-27T15:56:46.243185Z","system":"monitoring","level":"WARN","msg":"Minor fluctuation detected","host":"dc03","code":"FLUX"}
+{"ts":"2025-12-27T15:57:15.243185Z","system":"cooling","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T15:57:29.243185Z","system":"hvac","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:57:34.243185Z","system":"monitoring","level":"INFO","msg":"Routine status check","host":"dc03","code":"STATUS_OK"}
+{"ts":"2025-12-27T15:57:58.243185Z","system":"power","level":"INFO","msg":"No active alarms","host":"dc03","code":"CLEAR"}
+{"ts":"2025-12-27T15:58:20.243185Z","system":"cooling","level":"WARN","msg":"Minor fluctuation detected","host":"dc03","code":"FLUX"}
+{"ts":"2025-12-27T15:58:21.243185Z","system":"monitoring","level":"INFO","msg":"No active alarms","host":"dc02","code":"CLEAR"}
+{"ts":"2025-12-27T16:00:25.243185Z","system":"monitoring","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T16:01:08.243185Z","system":"power","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T16:01:13.243185Z","system":"power","level":"INFO","msg":"No active alarms","host":"dc02","code":"CLEAR"}
+{"ts":"2025-12-27T16:01:35.243185Z","system":"power","level":"INFO","msg":"No active alarms","host":"dc01","code":"CLEAR"}
+{"ts":"2025-12-27T16:01:36.243185Z","system":"monitoring","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T16:01:40.243185Z","system":"monitoring","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T16:01:45.243185Z","system":"power","level":"INFO","msg":"No active alarms","host":"dc01","code":"CLEAR"}
+{"ts":"2025-12-27T16:02:11.243185Z","system":"hvac","level":"INFO","msg":"No active alarms","host":"dc03","code":"CLEAR"}
+{"ts":"2025-12-27T16:02:15.243185Z","system":"power","level":"WARN","msg":"Minor fluctuation detected","host":"dc03","code":"FLUX"}
+{"ts":"2025-12-27T16:02:57.243185Z","system":"power","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T16:03:17.243185Z","system":"monitoring","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T16:03:58.243185Z","system":"cooling","level":"INFO","msg":"Operating normally","host":"dc03","code":"OK"}
+{"ts":"2025-12-27T16:04:13.243185Z","system":"monitoring","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T16:04:35.243185Z","system":"monitoring","level":"WARN","msg":"Minor fluctuation detected","host":"dc03","code":"FLUX"}
+{"ts":"2025-12-27T16:04:54.243185Z","system":"cooling","level":"INFO","msg":"No active alarms","host":"dc01","code":"CLEAR"}
+{"ts":"2025-12-27T16:05:18.243185Z","system":"monitoring","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T16:05:32.243185Z","system":"hvac","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T16:07:53.243185Z","system":"hvac","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T16:08:18.243185Z","system":"monitoring","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T16:08:58.243185Z","system":"hvac","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T16:09:39.243185Z","system":"cooling","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T16:09:55.243185Z","system":"power","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T16:10:09.243185Z","system":"hvac","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T16:10:22.243185Z","system":"power","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T16:11:48.243185Z","system":"hvac","level":"WARN","msg":"Minor fluctuation detected","host":"dc03","code":"FLUX"}
+{"ts":"2025-12-27T16:12:11.243185Z","system":"power","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T16:12:12.243185Z","system":"hvac","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T16:13:25.243185Z","system":"monitoring","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T16:14:18.243185Z","system":"hvac","level":"INFO","msg":"No active alarms","host":"dc01","code":"CLEAR"}
+{"ts":"2025-12-27T16:14:35.243185Z","system":"cooling","level":"INFO","msg":"Operating normally","host":"dc03","code":"OK"}
+{"ts":"2025-12-27T16:15:04.243185Z","system":"cooling","level":"INFO","msg":"No active alarms","host":"dc01","code":"CLEAR"}
+{"ts":"2025-12-27T16:15:10.243185Z","system":"power","level":"ERROR","msg":"Critical load shed","host":"dc03","code":"LOAD_SHED"}
+{"ts":"2025-12-27T16:15:23.243185Z","system":"power","level":"ERROR","msg":"Critical load shed","host":"dc01","code":"LOAD_SHED"}
+{"ts":"2025-12-27T16:16:24.243185Z","system":"cooling","level":"WARN?","msg":"Chilled water flow reduced","host":"dc01","code":"FLOW_LOW"}
+{"ts":"2025-12-27T16:16:31.243185Z","system":"power","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T16:16:36.243185Z","system":"power","level":"ERROR","msg":"Critical load shed","host":"dc02","code":"LOAD_SHED"}
+{"ts":"2025-12-27T16:16:43.243185Z","system":"power","level":"ERROR","msg":"Critical load shed","host":"dc03","code":"LOAD_SHED"}
+{"ts":"2025-12-27T16:16:45.243185Z","system":"power","level":"ERROR","msg":"UPS on battery","host":"dc01","code":"UPS_BATT"}
+{"ts":"2025-12-27T16:16:59.243185Z","system":"power","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T16:17:05.243185Z","system":"power","level":"INFO","msg":"No active alarms","host":"dc02","code":"CLEAR"}
+{"ts":"2025-12-27T16:17:37.243185Z","system":"hvac","level":"WARN","msg":"Supply air temperature high","host":"dc02","code":"TEMP_HIGH"}
+{"ts":"2025-12-27T16:17:39.243185Z","system":"hvac","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T16:17:45.243185Z","system":"power","level":"ERROR","msg":"Generator start failure","host":"dc02","code":"GEN_FAIL"}
+{"ts":"2025-12-27T16:18:30.243185Z","system":"cooling","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T16:18:36.243185Z","system":"monitoring","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T16:18:39.243185Z","system":"power","level":"ERROR","msg":"UPS on battery","host":"dc03","code":"UPS_BATT"}
+{"ts":"2025-12-27T16:18:50.243185Z","system":"power","level":"ERROR","msg":"UPS on battery","host":"dc01","code":"UPS_BATT"}
+{"ts":"2025-12-27T16:18:54.243185Z","system":"hvac","level":"WARN","msg":"Supply air temperature high","host":"dc01","code":"TEMP_HIGH"}
+{"ts":"2025-12-27T16:18:55.243185Z","system":"monitoring","level":"WARN","msg":"Multiple alarms active","host":"dc01","code":"MULTI"}
+{"ts":"2025-12-27T16:19:02.243185Z","system":"monitoring","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T16:19:25.243185Z","system":"monitoring","level":"WARN","msg":"Minor fluctuation detected","host":"dc03","code":"FLUX"}
+{"ts":"2025-12-27T16:19:32.243185Z","system":"cooling","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T16:19:32.243185Z","system":"hvac","level":"WARN","msg":"Supply air temperature high","host":"dc01","code":"TEMP_HIGH"}
+{"ts":"2025-12-27T16:20:22.243185Z","system":"monitoring","level":"INFO","msg":"No active alarms","host":"dc03","code":"CLEAR"}
+{"ts":"2025-12-27T16:20:26.243185Z","system":"power","level":"INFO","msg":"Operating normally","host":"dc03","code":"OK"}
+{"ts":"2025-12-27T16:20:52.243185Z","system":"cooling","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T16:21:09.243185Z","system":"hvac","level":"INFO","msg":"Routine status check","host":"dc03","code":"STATUS_OK"}
+{"ts":"2025-12-27T16:21:28.243185Z","system":"hvac","level":"INFO","msg":"Routine status check","host":"dc03","code":"STATUS_OK"}
+{"ts":"2025-12-27T16:21:38.243185Z","system":"monitoring","level":"INFO","msg":"No active alarms","host":"dc02","code":"CLEAR"}
+{"ts":"2025-12-27T16:21:40.243185Z","system":"hvac","level":"INFO","msg":"Routine status check","host":"dc03","code":"STATUS_OK"}
+{"ts":"2025-12-27T16:22:04.243185Z","system":"monitoring","level":"WARN","msg":"Minor fluctuation detected","host":"dc03","code":"FLUX"}
+{"ts":"2025-12-27T16:22:53.243185Z","system":"monitoring","level":"INFO","msg":"No active alarms","host":"dc01","code":"CLEAR"}
+{"ts":"2025-12-27T16:23:23.243185Z","system":"monitoring","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T16:23:37.243185Z","system":"cooling","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T16:24:39.243185Z","system":"hvac","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T16:25:01.243185Z","system":"cooling","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T16:25:16.243185Z","system":"monitoring","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T16:25:30.243185Z","system":"power","level":"INFO","msg":"No active alarms","host":"dc03","code":"CLEAR"}
+{"ts":"2025-12-27T16:26:10.243185Z","system":"power","level":"INFO","msg":"Routine status check","host":"dc03","code":"STATUS_OK"}
+{"ts":"2025-12-27T16:27:15.243185Z","system":"monitoring","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T16:28:04.243185Z","system":"power","level":"INFO","msg":"Routine status check","host":"dc03","code":"STATUS_OK"}
+{"ts":"2025-12-27T16:29:02.243185Z","system":"power","level":"INFO","msg":"Operating normally","host":"dc03","code":"OK"}
+{"ts":"2025-12-27T16:29:25.243185Z","system":"hvac","level":"INFO","msg":"No active alarms","host":"dc01","code":"CLEAR"}
+{"ts":"2025-12-27T16:29:30.243185Z","system":"hvac","level":"INFO","msg":"No active alarms","host":"dc03","code":"CLEAR"}
+{"ts":"2025-12-27T16:29:47.243185Z","system":"power","level":"INFO","msg":"Routine status check","host":"dc03","code":"STATUS_OK"}
+{"ts":"2025-12-27T16:30:24.243185Z","system":"power","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T16:30:28.243185Z","system":"monitoring","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T16:30:33.243185Z","system":"power","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T16:30:45.243185Z","system":"power","level":"INFO","msg":"Operating normally","host":"dc03","code":"OK"}
+{"ts":"2025-12-27T16:31:09.243185Z","system":"monitoring","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T16:31:09.243185Z","system":"power","level":"INFO","msg":"No active alarms","host":"dc01","code":"CLEAR"}
+{"ts":"2025-12-27T16:31:32.243185Z","system":"cooling","level":"INFO","msg":"Routine status check","host":"dc03","code":"STATUS_OK"}
+{"ts":"2025-12-27T16:31:50.243185Z","system":"cooling","level":"INFO","msg":"No active alarms","host":"dc02","code":"CLEAR"}
+{"ts":"2025-12-27T16:32:30.243185Z","system":"monitoring","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T16:32:32.243185Z","system":"monitoring","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T16:32:35.243185Z","system":"cooling","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T16:33:39.243185Z","system":"power","level":"WARN","msg":"Minor fluctuation detected","host":"dc03","code":"FLUX"}
+{"ts":"2025-12-27T16:34:04.243185Z","system":"cooling","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T16:34:18.243185Z","system":"hvac","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T16:34:22.243185Z","system":"monitoring","level":"INFO","msg":"No active alarms","host":"dc03","code":"CLEAR"}
+{"ts":"2025-12-27T16:34:57.243185Z","system":"monitoring","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T16:34:57.243185Z","system":"monitoring","level":"WARN","msg":"Minor fluctuation detected","host":"dc03","code":"FLUX"}
+{"ts":"2025-12-27T16:35:02.243185Z","system":"monitoring","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T16:35:09.243185Z","system":"monitoring","level":"INFO","msg":"Operating normally","host":"dc03","code":"OK"}
+{"ts":"2025-12-27T16:36:03.243185Z","system":"power","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T16:36:47.243185Z","system":"hvac","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T16:36:57.243185Z","system":"power","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T16:37:25.243185Z","system":"monitoring","level":"INFO","msg":"Operating normally","host":"dc03","code":"OK"}
+{"ts":"2025-12-27T16:38:06.243185Z","system":"monitoring","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T16:38:18.243185Z","system":"monitoring","level":"INFO","msg":"No active alarms","host":"dc01","code":"CLEAR"}
+{"ts":"2025-12-27T16:38:40.243185Z","system":"cooling","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T16:39:00.243185Z","system":"power","level":"WARN","msg":"Minor fluctuation detected","host":"dc03","code":"FLUX"}
+{"ts":"2025-12-27T16:39:20.243185Z","system":"cooling","level":"WARN","msg":"Minor fluctuation detected","host":"dc03","code":"FLUX"}
+{"ts":"2025-12-27T16:39:26.243185Z","system":"monitoring","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T16:39:52.243185Z","system":"monitoring","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T16:40:21.243185Z","system":"power","level":"INFO","msg":"Routine status check","host":"dc03","code":"STATUS_OK"}
+{"ts":"2025-12-27T16:40:35.243185Z","system":"hvac","level":"INFO","msg":"No active alarms","host":"dc01","code":"CLEAR"}
+{"ts":"2025-12-27T16:40:36.243185Z","system":"hvac","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T16:41:43.243185Z","system":"power","level":"WARN","msg":"Voltage dip detected","host":"dc03","code":"VOLT_DIP"}
+{"ts":"2025-12-27T16:41:50.243185Z","system":"monitoring","level":"WARN","msg":"Minor fluctuation detected","host":"dc03","code":"FLUX"}
+{"ts":"2025-12-27T16:41:57.243185Z","system":"monitoring","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T16:42:20.243185Z","system":"power","level":"ERROR","msg":"Generator start failure","host":"dc01","code":"GEN_FAIL"}
+{"ts":"2025-12-27T16:42:26.243185Z","system":"hvac","level":"INFO","msg":"No active alarms","host":"dc02","code":"CLEAR"}
+{"ts":"2025-12-27T16:42:28.243185Z","system":"power","level":"ERROR","msg":"UPS on battery","host":"dc01","code":"UPS_BATT"}
+{"ts":"2025-12-27T16:42:33.243185Z","system":"hvac","level":"ERROR","msg":"Compressor trip detected","host":"dc03","code":"COMP_TRIP"}
+{"ts":"2025-12-27T16:42:45.243185Z","system":"hvac","level":"WARN","msg":"Supply air temperature high","host":"dc01","code":"TEMP_HIGH"}
+{"ts":"2025-12-27T16:42:45.243185Z","system":"power","level":"ERROR","msg":"Critical load shed","host":"dc01","code":"LOAD_SHED"}
+{"ts":"2025-12-27T16:42:52.243185Z","system":"power","level":"WARN","msg":"Voltage dip detected","host":"dc03","code":"VOLT_DIP"}
+{"ts":"2025-12-27T16:42:57.243185Z","system":"cooling","level":"WARN?","msg":"Chilled water flow reduced","host":"dc01","code":"FLOW_LOW"}
+{"ts":"2025-12-27T16:43:12.243185Z","system":"monitoring","level":"WARN","msg":"Multiple alarms active","host":"dc01","code":"MULTI"}
+{"ts":"2025-12-27T16:43:30.243185Z","system":"power","level":"ERROR","msg":"Critical load shed","host":"dc01","code":"LOAD_SHED"}
+{"ts":"2025-12-27T16:43:43.243185Z","system":"hvac","level":"WARN","msg":"Supply air temperature high","host":"dc03","code":"TEMP_HIGH"}
+{"ts":"2025-12-27T16:44:39.243185Z","system":"monitoring","level":"WARN","msg":"Multiple alarms active","host":"dc02","code":"MULTI"}
+{"ts":"2025-12-27T16:44:58.243185Z","system":"cooling","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T16:44:59.243185Z","system":"power","level":"ERROR","msg":"Generator start failure","host":"dc03","code":"GEN_FAIL"}
+{"ts":"2025-12-27T16:45:03.243185Z","system":"monitoring","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T16:45:07.243185Z","system":"power","level":"INFO","msg":"Routine status check","host":"dc03","code":"STATUS_OK"}
+{"ts":"2025-12-27T16:45:17.243185Z","system":"hvac","level":"ERROR","msg":"Compressor trip detected","host":"dc03","code":"COMP_TRIP"}
+{"ts":"2025-12-27T16:45:23.243185Z","system":"monitoring","level":"WARN","msg":"Multiple alarms active","host":"dc01","code":"MULTI"}
+{"ts":"2025-12-27T16:45:24.243185Z","system":"hvac","level":"ERROR","msg":"Compressor trip detected","host":"dc03","code":"COMP_TRIP"}
+{"ts":"2025-12-27T16:45:27.243185Z","system":"power","level":"WARN","msg":"Voltage dip detected","host":"dc03","code":"VOLT_DIP"}
+{"ts":"2025-12-27T16:46:25.243185Z","system":"hvac","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T16:46:57.243185Z","system":"monitoring","level":"INFO","msg":"No active alarms","host":"dc01","code":"CLEAR"}
+{"ts":"2025-12-27T16:48:33.243185Z","system":"cooling","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T16:49:32.243185Z","system":"monitoring","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T16:49:39.243185Z","system":"cooling","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T16:50:23.243185Z","system":"monitoring","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T16:50:29.243185Z","system":"cooling","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T16:51:03.243185Z","system":"cooling","level":"INFO","msg":"No active alarms","host":"dc02","code":"CLEAR"}
+{"ts":"2025-12-27T16:51:24.243185Z","system":"cooling","level":"INFO","msg":"No active alarms","host":"dc02","code":"CLEAR"}
+{"ts":"2025-12-27T16:51:37.243185Z","system":"cooling","level":"INFO","msg":"No active alarms","host":"dc01","code":"CLEAR"}
+{"ts":"2025-12-27T16:51:44.243185Z","system":"cooling","level":"INFO","msg":"Routine status check","host":"dc03","code":"STATUS_OK"}
+{"ts":"2025-12-27T16:51:48.243185Z","system":"hvac","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T16:51:58.243185Z","system":"hvac","level":"INFO","msg":"Operating normally","host":"dc03","code":"OK"}
+{"ts":"2025-12-27T16:52:28.243185Z","system":"monitoring","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T16:53:12.243185Z","system":"power","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T16:53:21.243185Z","system":"power","level":"INFO","msg":"No active alarms","host":"dc02","code":"CLEAR"}
+{"ts":"2025-12-27T16:54:03.243185Z","system":"cooling","level":"INFO","msg":"No active alarms","host":"dc02","code":"CLEAR"}
+{"ts":"2025-12-27T16:54:15.243185Z","system":"hvac","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T16:54:43.243185Z","system":"power","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T16:54:56.243185Z","system":"power","level":"INFO","msg":"No active alarms","host":"dc02","code":"CLEAR"}
+{"ts":"2025-12-27T16:55:55.243185Z","system":"monitoring","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T16:56:37.243185Z","system":"cooling","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T16:56:37.243185Z","system":"hvac","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T16:57:36.243185Z","system":"hvac","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T16:57:40.243185Z","system":"cooling","level":"WARN?","msg":"Chilled water flow reduced","host":"dc03","code":"FLOW_LOW"}
+{"ts":"2025-12-27T16:58:01.243185Z","system":"power","level":"ERROR","msg":"Critical load shed","host":"dc03","code":"LOAD_SHED"}
+{"ts":"2025-12-27T16:58:17.243185Z","system":"cooling","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T16:58:34.243185Z","system":"hvac","level":"ERROR","msg":"Compressor trip detected","host":"dc03","code":"COMP_TRIP"}
+{"ts":"2025-12-27T16:58:50.243185Z","system":"power","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T16:59:02.243185Z","system":"monitoring","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T16:59:18.243185Z","system":"monitoring","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T16:59:24.243185Z","system":"hvac","level":"INFO","msg":"Operating normally","host":"dc03","code":"OK"}
+{"ts":"2025-12-27T16:59:42.243185Z","system":"power","level":"WARN","msg":"Voltage dip detected","host":"dc03","code":"VOLT_DIP"}
+{"ts":"2025-12-27T17:00:16.243185Z","system":"monitoring","level":"WARN","msg":"Minor fluctuation detected","host":"dc03","code":"FLUX"}
+{"ts":"2025-12-27T17:00:53.243185Z","system":"power","level":"ERROR","msg":"Generator start failure","host":"dc01","code":"GEN_FAIL"}
+{"ts":"2025-12-27T17:01:29.243185Z","system":"hvac","level":"INFO","msg":"No active alarms","host":"dc01","code":"CLEAR"}
+{"ts":"2025-12-27T17:02:54.243185Z","system":"hvac","level":"WARN","msg":"Supply air temperature high","host":"dc02","code":"TEMP_HIGH"}
+{"ts":"2025-12-27T17:03:25.243185Z","system":"power","level":"WARN","msg":"Minor fluctuation detected","host":"dc03","code":"FLUX"}
+{"ts":"2025-12-27T17:03:26.243185Z","system":"hvac","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T17:03:56.243185Z","system":"cooling","level":"INFO","msg":"Operating normally","host":"dc03","code":"OK"}
+{"ts":"2025-12-27T17:04:09.243185Z","system":"hvac","level":"WARN","msg":"Supply air temperature high","host":"dc03","code":"TEMP_HIGH"}
+{"ts":"2025-12-27T17:04:12.243185Z","system":"cooling","level":"WARN?","msg":"Chilled water flow reduced","host":"dc03","code":"FLOW_LOW"}
+{"ts":"2025-12-27T17:04:32.243185Z","system":"power","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T17:04:36.243185Z","system":"monitoring","level":"INFO","msg":"Operating normally","host":"dc03","code":"OK"}
+{"ts":"2025-12-27T17:06:12.243185Z","system":"hvac","level":"INFO","msg":"Operating normally","host":"dc03","code":"OK"}
+{"ts":"2025-12-27T17:06:12.243185Z","system":"monitoring","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T17:06:47.243185Z","system":"hvac","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T17:06:56.243185Z","system":"monitoring","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T17:07:23.243185Z","system":"hvac","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T17:07:26.243185Z","system":"power","level":"INFO","msg":"Routine status check","host":"dc03","code":"STATUS_OK"}
+{"ts":"2025-12-27T17:07:39.243185Z","system":"monitoring","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T17:08:47.243185Z","system":"cooling","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T17:09:01.243185Z","system":"power","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T17:09:32.243185Z","system":"monitoring","level":"INFO","msg":"No active alarms","host":"dc01","code":"CLEAR"}
+{"ts":"2025-12-27T17:09:56.243185Z","system":"power","level":"INFO","msg":"No active alarms","host":"dc02","code":"CLEAR"}
+{"ts":"2025-12-27T17:09:58.243185Z","system":"power","level":"WARN","msg":"Minor fluctuation detected","host":"dc03","code":"FLUX"}
+{"ts":"2025-12-27T17:10:53.243185Z","system":"power","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T17:11:54.243185Z","system":"cooling","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T17:12:03.243185Z","system":"cooling","level":"INFO","msg":"No active alarms","host":"dc03","code":"CLEAR"}
+{"ts":"2025-12-27T17:12:38.243185Z","system":"monitoring","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T17:12:42.243185Z","system":"hvac","level":"INFO","msg":"No active alarms","host":"dc02","code":"CLEAR"}
+{"ts":"2025-12-27T17:13:00.243185Z","system":"power","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T17:13:08.243185Z","system":"monitoring","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T17:13:14.243185Z","system":"power","level":"WARN","msg":"Minor fluctuation detected","host":"dc03","code":"FLUX"}
+{"ts":"2025-12-27T17:15:15.243185Z","system":"hvac","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T17:16:27.243185Z","system":"cooling","level":"INFO","msg":"Operating normally","host":"dc03","code":"OK"}
+{"ts":"2025-12-27T17:17:05.243185Z","system":"hvac","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T17:17:25.243185Z","system":"power","level":"INFO","msg":"Operating normally","host":"dc03","code":"OK"}
+{"ts":"2025-12-27T17:17:51.243185Z","system":"cooling","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T17:18:17.243185Z","system":"monitoring","level":"INFO","msg":"No active alarms","host":"dc02","code":"CLEAR"}
+{"ts":"2025-12-27T17:18:24.243185Z","system":"hvac","level":"INFO","msg":"No active alarms","host":"dc01","code":"CLEAR"}
+{"ts":"2025-12-27T17:18:44.243185Z","system":"cooling","level":"WARN","msg":"Minor fluctuation detected","host":"dc03","code":"FLUX"}
+{"ts":"2025-12-27T17:18:49.243185Z","system":"monitoring","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T17:18:51.243185Z","system":"cooling","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T17:19:13.243185Z","system":"monitoring","level":"INFO","msg":"No active alarms","host":"dc02","code":"CLEAR"}
+{"ts":"2025-12-27T17:20:26.243185Z","system":"hvac","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T17:22:41.243185Z","system":"monitoring","level":"INFO","msg":"No active alarms","host":"dc02","code":"CLEAR"}
+{"ts":"2025-12-27T17:22:53.243185Z","system":"hvac","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T17:23:15.243185Z","system":"hvac","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T17:25:08.243185Z","system":"cooling","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T17:26:10.243185Z","system":"cooling","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T17:26:30.243185Z","system":"power","level":"INFO","msg":"Operating normally","host":"dc03","code":"OK"}
+{"ts":"2025-12-27T17:26:55.243185Z","system":"cooling","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T17:30:21.243185Z","system":"cooling","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T17:30:55.243185Z","system":"power","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T17:31:07.243185Z","system":"hvac","level":"INFO","msg":"Operating normally","host":"dc02","code":"OK"}
+{"ts":"2025-12-27T17:31:38.243185Z","system":"hvac","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T17:32:17.243185Z","system":"cooling","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T17:32:18.243185Z","system":"power","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T17:32:22.243185Z","system":"power","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
+{"ts":"2025-12-27T17:32:38.243185Z","system":"cooling","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T17:33:42.243185Z","system":"hvac","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T17:34:01.243185Z","system":"power","level":"WARN","msg":"Minor fluctuation detected","host":"dc03","code":"FLUX"}
+{"ts":"2025-12-27T17:34:53.243185Z","system":"power","level":"WARN","msg":"Minor fluctuation detected","host":"dc02","code":"FLUX"}
+{"ts":"2025-12-27T17:35:05.243185Z","system":"monitoring","level":"INFO","msg":"Operating normally","host":"dc01","code":"OK"}
+{"ts":"2025-12-27T17:35:17.243185Z","system":"cooling","level":"WARN","msg":"Minor fluctuation detected","host":"dc01","code":"FLUX"}
+{"ts":"2025-12-27T17:35:26.243185Z","system":"hvac","level":"WARN","msg":"Minor fluctuation detected","host":"dc03","code":"FLUX"}
+{"ts":"2025-12-27T17:35:51.243185Z","system":"hvac","level":"INFO","msg":"Routine status check","host":"dc03","code":"STATUS_OK"}
+{"ts":"2025-12-27T17:36:14.243185Z","system":"cooling","level":"INFO","msg":"No active alarms","host":"dc02","code":"CLEAR"}
+{"ts":"2025-12-27T17:36:15.243185Z","system":"cooling","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T17:36:21.243185Z","system":"monitoring","level":"INFO","msg":"Routine status check","host":"dc02","code":"STATUS_OK"}
+{"ts":"2025-12-27T17:37:46.243185Z","system":"monitoring","level":"INFO","msg":"Routine status check","host":"dc01","code":"STATUS_OK"}
