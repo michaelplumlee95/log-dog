@@ -49,3 +49,17 @@ pub fn group_incidents(events: &[Event], window_seconds: i64) -> Vec<Incident> {
     });
     incidents
 }
+
+fn is_incident_level(level: &str) -> bool {
+    matches!(level, "WARN" | "ERROR")
+}
+
+pub fn group_incidents_by_level(events: &[Event], window_seconds: i64) -> Vec<Incident> {
+    let filtered: Vec<Event> = events
+        .iter()
+        .filter(|e| is_incident_level(e.level.as_str()))
+        .cloned()
+        .collect();
+
+    group_incidents(&filtered, window_seconds)
+}

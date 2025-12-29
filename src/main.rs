@@ -15,7 +15,8 @@ fn main() -> Result<()> {
         }
     */
 
-    let incidents = correlate::group_incidents(&events, 300);
+    let incidents = correlate::group_incidents_by_level(&events, 300);
+    println!("Incidents found: {}", incidents.len());
 
     for (idx, inc) in incidents.iter().enumerate() {
         println!(

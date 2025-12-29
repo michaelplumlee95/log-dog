@@ -30,7 +30,7 @@ fn main() -> anyhow::Result<()> {
         ("INFO", "Routine status check", "STATUS_OK"),
         ("INFO", "Operating normally", "OK"),
         ("INFO", "No active alarms", "CLEAR"),
-        ("WARN", "Minor fluctuation detected", "FLUX"),
+        ("INFO", "Minor fluctuation detected", "FLUX"),
     ];
 
     let incident_events = [
