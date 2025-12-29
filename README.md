@@ -8,6 +8,8 @@ Log Dog is a command-line tool that ingests operational logs, normalizes events,
 
 This project is inspired by real world operational environments (data centers, power systems, industrial infrastructure), where engineers must identify meaningful patterns across many routine readings and alarms.
 
+![CI](https://github.com/michaelplumlee95/log-dog/actions/workflows/ci.yml/badge.svg)
+
 ## Problem Statement
 
 Operational systems generate large numbers of logs:
