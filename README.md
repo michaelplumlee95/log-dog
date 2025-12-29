@@ -1,6 +1,6 @@
 # Log Dog 🐕
 
-**A CLI tool for correlating operational logs into incidents**
+**A CLI tool for correlating operational logs into incidents written in Rust**
 
 ![CI](https://github.com/michaelplumlee95/log-dog/actions/workflows/ci.yml/badge.svg)
 
