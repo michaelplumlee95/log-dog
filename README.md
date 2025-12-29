@@ -1,25 +1,28 @@
-# Log Dog
+# Log Dog 🐕
 
-Incident Correlations for Operational Logs
-
-## Overview
-
-Log Dog is a command-line tool that ingests operational logs, normalizes events, and automatically groups related events into incidents. Its goal is to reduce large volumes of noisy logs into concise, human-readable summaries that support faster triage and engineering decision making.
-
-This project is inspired by real world operational environments (data centers, power systems, industrial infrastructure), where engineers must identify meaningful patterns across many routine readings and alarms.
+**A CLI tool for correlating operational logs into incidents**
 
 ![CI](https://github.com/michaelplumlee95/log-dog/actions/workflows/ci.yml/badge.svg)
 
-## Problem Statement
+## Overview
+
+Log Dog is a command-line tool that ingests operational log data and groups related events into **incidents** using a configurable time-window correlation strategy.
+
+It is designed to reduce noisy, high-volume logs into concise summaries that support **initial incident triage** in infrastructure and backend environments.
+
+The project is inspired by real-world operational workflows in data centers and industrial systems, where engineers reason about incidents by correlating warnings and errors across multiple subsystems over time.
+
+---
+
+## Problem
 
 Operational systems generate large numbers of logs:
 
-- routine status readings
-- warnings
-- error events
-- alarms across multiple subsystems
+- routine status messages (`INFO`)
+- warnings (`WARN`)
+- errors and alarms (`ERROR`)
 
-Individually, these log entries are often low-signal.
+Individually, these entries are often low signal.  
 Taken together, they may represent a single underlying incident.
 
 Manually reviewing logs to determine:
@@ -30,101 +33,42 @@ Manually reviewing logs to determine:
 
 is time-consuming and error-prone.
 
-*Log Dog automates the first-pass analysis* by clustering related events into incidents and producing structured summaries suitable for engineers or operators.
+**Log Dog automates this first-pass correlation.**
 
-## What This Tool Does
+---
 
-- Ingests semi-structured log files (JSON)
-- Normalizes raw log entries into a consistent internal event model
-- Groups events into incidents using a configurable time-window correlation strategy
-- Produces concise incident summaries including:
-  - start and end time
-  - affected systems
-  - error and warning counts
-  - involved hosts/components
-- Exports results in machine-readable and human-readable formats
+## What Log Dog Does
 
-## What This Tool Does Not Do
+- Ingests newline-delimited JSON (`.jsonl`) log files
+- Normalizes entries into a consistent internal event model
+- Filters noise (`INFO`) and correlates `WARN` / `ERROR` events
+- Groups temporally related events into incidents
+- Produces concise, human-readable summaries
+- Supports deterministic log generation for testing
 
-- Perform OCR or digitization of handwritten logs
-- Use machine learning or anomaly detection
+---
+
+## What Log Dog Does *Not* Do
+
+- Perform machine learning or anomaly detection
 - Guarantee perfect incident detection
-- Replace human judgment.
+- Replace human judgment or monitoring systems
 
-Log Dog is intended to be a *decision-support* tool, not an autonomous monitoring system.
+Log Dog is a **decision-support tool**, not an autonomous monitoring platform.
 
-## Log Model
+---
 
-Each input log entry is normalized into an internal `Event` representation:
+## Incident Model
 
-- timestamp
-- system or service
-- severity level (INFO / WARN / ERROR)
-- message or event description
-- host or component identifier
-- error or alarm code
-- raw payload (preserved for traceability)
+An **incident** is defined as a sequence of non-INFO events where:
 
-This normalization allows logs from different subsystems to be analyzed uniformly.
+- consecutive events occur within a configurable time window (default: 5 minutes)
+- events are temporally close enough to plausibly share a root cause
 
-## Incident Definition
+This mirrors how operators reason during early incident triage.
 
-An *incident* is defined as a sequence of events where:
+---
 
-- events occur within a configurable time window of each other
-- events are temporally adjacent enough to plausibly share a root cause
+## Example
 
-This simple correlation strategy reflects how operators often reason about cascading or related failures during initial triage.
-
-## Example Use Case
-
-Instead of reviewing hundreds of individual log lines:
-
-```code
-10:01 WARN HVAC temp high
-10:02 ERROR HVAC compressor trip
-10:03 ERROR POWER breaker alert
-10:06 WARN HVAC airflow reduced
-```
-
-Log Dog produces a summary such as:
-
-```codeIncident #3
-Time: 10:01–10:06
-Systems involved: HVAC, Power
-Errors: COMP_TRIP, BRKR_ALERT
-Hosts affected: dc01, dc02
-```
-
-## Project Status
-
-This project is under active development.
-
-Current focus:
-
-- Core parsing and normalization
-- Incident correlation logic
-- CLI usability
-- Clear documentation and test coverage
-
-Future enhancements may include:
-
-- Multiple input formats
-- Severity scoring
-- Persistent storage
-- Visualization support
-
-## Why this project Exists
-
-This project was built to demonstrate:
-
-- backend and systems-oriented problem solving
-- handling of messy, real-world operational data
-- translating domain knowledge into software logic
-- designing internal tools that support engineers, not replace them.
-
-The logs used in this project are *synthetic*, but intentionally modeled after real operational environments to reflect realistic constraints and workflows
-
-## License
-
-MIT License
+**Input logs**
