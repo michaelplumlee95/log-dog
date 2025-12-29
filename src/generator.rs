@@ -1,8 +1,10 @@
 use chrono::{DateTime, Duration, Utc};
-use rand::{Rng, seq::SliceRandom};
+use rand::rngs::StdRng;
+use rand::{Rng, SeedableRng, seq::SliceRandom};
 use serde::Serialize;
 use std::fs::File;
 use std::io::{BufWriter, Write};
+use std::path::Path;
 
 #[derive(Serialize)]
 struct LogLine<'a> {
@@ -14,14 +16,19 @@ struct LogLine<'a> {
     code: &'a str,
 }
 
-fn main() -> anyhow::Result<()> {
-    let mut rng = rand::thread_rng();
+pub fn generate(
+    out_path: &Path,
+    seed: Option<u64>,
+    minutes: i64,
+    base_rate: u32,
+    incident_count: u32,
+) -> anyhow::Result<()> {
+    let mut rng: StdRng = match seed {
+        Some(s) => StdRng::seed_from_u64(s),
+        None => StdRng::from_entropy(),
+    };
 
     // Configs
-    let minutes = 180;
-    let base_rate_per_min = 2;
-    let incident_count = 3;
-    let out_path = "sample_data/generated.jsonl";
 
     let systems = ["hvac", "power", "cooling", "monitoring"];
     let hosts = ["dc01", "dc02", "dc03"];
@@ -51,7 +58,7 @@ fn main() -> anyhow::Result<()> {
     for m in 0..minutes {
         let t0 = start + Duration::minutes(m);
 
-        let n = rng.gen_range(0..=base_rate_per_min * 2);
+        let n = rng.gen_range(0..=base_rate * 2);
 
         for _ in 0..n {
             let (level, msg, code) = baseline.choose(&mut rng).unwrap();
@@ -75,7 +82,7 @@ fn main() -> anyhow::Result<()> {
 
     for _ in 0..incident_count {
         let burst_start_min = rng.gen_range(10..minutes - 10);
-        let burst_start = start + Duration::minutes(burst_start_min as i64);
+        let burst_start = start + Duration::minutes(burst_start_min);
 
         let burst_len_sec = rng.gen_range(120..420); // 2- 7 minute burst
         let burst_events = rng.gen_range(6..18);
@@ -109,6 +116,6 @@ fn main() -> anyhow::Result<()> {
         writeln!(w, "{json}")?;
     }
 
-    println!("Wrote {}", out_path);
+    println!("Wrote generated logs.");
     Ok(())
 }
