@@ -63,3 +63,77 @@ pub fn group_incidents_by_level(events: &[Event], window_seconds: i64) -> Vec<In
 
     group_incidents(&filtered, window_seconds)
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use crate::model::Event;
+
+    fn ev(ts: &str, level: &str) -> Event {
+        Event {
+            ts: ts.parse().expect("valid RFC3339 timestamp"),
+            system: "power".to_string(),
+            level: level.to_string(),
+            msg: "x".to_string(),
+            host: Some("dc01".to_string()),
+            code: Some("CODE".to_string()),
+        }
+    }
+
+    #[test]
+    fn empty_input_produces_no_incidents() {
+        let incidents = group_incidents(&[], 300);
+        assert_eq!(incidents.len(), 0);
+    }
+
+    #[test]
+    fn events_within_window_cluster_into_one_incident() {
+        let events = vec![
+            ev("2025-12-26T10:00:00Z", "ERROR"),
+            ev("2025-12-26T10:04:59Z", "WARN"), // 299s later
+        ];
+
+        let incidents = group_incidents(&events, 300);
+        assert_eq!(incidents.len(), 1);
+        assert_eq!(incidents[0].events.len(), 2);
+        assert_eq!(incidents[0].start.to_rfc3339(), "2025-12-26T10:00:00+00:00");
+    }
+
+    #[test]
+    fn events_outside_window_split_into_two_incidents() {
+        let events = vec![
+            ev("2025-12-26T10:00:00Z", "ERROR"),
+            ev("2025-12-26T10:05:01Z", "ERROR"), // 301s gap
+        ];
+
+        let incidents = group_incidents(&events, 300);
+        assert_eq!(incidents.len(), 2);
+        assert_eq!(incidents[0].events.len(), 1);
+        assert_eq!(incidents[1].events.len(), 1);
+    }
+
+    #[test]
+    fn filtering_levels_excludes_info_events() {
+        let events = vec![
+            ev("2025-12-26T10:00:00Z", "INFO"),
+            ev("2025-12-26T10:01:00Z", "ERROR"),
+            ev("2025-12-26T10:02:00Z", "INFO"),
+            ev("2025-12-26T10:03:00Z", "WARN"),
+        ];
+
+        let incidents = group_incidents_by_level(&events, 300);
+
+        assert_eq!(incidents.len(), 1);
+        assert_eq!(incidents[0].events.len(), 2);
+
+        let levels: Vec<&str> = incidents[0]
+            .events
+            .iter()
+            .map(|e| e.level.as_str())
+            .collect();
+
+        assert!(levels.contains(&"ERROR"));
+        assert!(levels.contains(&"WARN"));
+        assert!(!levels.contains(&"INFO"));
+    }
+}
