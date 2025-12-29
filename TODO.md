@@ -25,13 +25,13 @@ Items are ordered roughly by priority and learning value.
     - First `WARN` or `ERROR`
     - Severity threshold
     - Ignore INFO-only clusters
-- [ ] Merge or suppress singleton INFO-only incidents
+- [x] Merge or suppress singleton INFO-only incidents
 - [ ] Add basic incident severity scoring
 
 ### Output Improvements
 
-- [ ] Print incident summaries instead of raw debug output
-- [ ] Include:
+- [x] Print incident summaries instead of raw debug output
+- [x] Include:
   - time range
   - systems involved
   - error/warn counts
@@ -41,7 +41,7 @@ Items are ordered roughly by priority and learning value.
 
 ## 🧪 Testing
 
-- [ ] Add unit tests for `group_incidents`
+- [x] Add unit tests for `group_incidents`
   - Events within window cluster correctly
   - Events outside window split into new incidents
 - [ ] Add test case for mixed INFO/WARN/ERROR logs
