@@ -69,6 +69,41 @@ This mirrors how operators reason during early incident triage.
 
 ---
 
-## Example
+## Usage
 
-**Input logs**
+### Generate synthetic logs
+
+    log-dog gen --seed 42 --incident-count 3 --out sample.jsonl
+
+### Correlate incidents
+
+    log-dog incidents --input sample.jsonl --window 300
+
+---
+
+## Design Highlights
+
+- **Deterministic log generation** via seeded RNG
+- **RFC3339 timestamps** for reliable ordering and parsing
+- **Separation of concerns** (parsing, correlation, reporting)
+- **Unit + integration tests**
+- **CI-enforced formatting, linting, and tests**
+
+---
+
+## Project Goals
+
+This project exists to demonstrate:
+
+- backend and systems-oriented problem solving
+- translating operational domain knowledge into code
+- building reliable internal tools
+- testable, maintainable Rust CLI design
+
+All logs are **synthetic**, but modeled after real operational environments.
+
+---
+
+## License
+
+MIT License
