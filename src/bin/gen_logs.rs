@@ -49,7 +49,7 @@ fn main() -> anyhow::Result<()> {
 
     // Baseline noise
     for m in 0..minutes {
-        let t0 = start + Duration::minutes(m as i64);
+        let t0 = start + Duration::minutes(m);
 
         let n = rng.gen_range(0..=base_rate_per_min * 2);
 

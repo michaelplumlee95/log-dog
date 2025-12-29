@@ -11,6 +11,7 @@ pub struct IncidentSummary {
     pub systems: BTreeSet<String>,
     pub hosts: BTreeSet<String>,
     pub codes: BTreeMap<String, usize>,
+    pub msg_preview: Vec<String>,
 }
 
 pub fn summarize(inc: &Incident) -> IncidentSummary {
@@ -18,6 +19,7 @@ pub fn summarize(inc: &Incident) -> IncidentSummary {
     let mut systems: BTreeSet<String> = BTreeSet::new();
     let mut hosts: BTreeSet<String> = BTreeSet::new();
     let mut codes: BTreeMap<String, usize> = BTreeMap::new();
+    let mut msg_preview: Vec<String> = Vec::new();
 
     for e in &inc.events {
         *counts_by_level.entry(e.level.clone()).or_insert(0) += 1;
@@ -30,6 +32,10 @@ pub fn summarize(inc: &Incident) -> IncidentSummary {
         if let Some(c) = &e.code {
             *codes.entry(c.clone()).or_insert(0) += 1;
         }
+
+        if msg_preview.len() < 3 {
+            msg_preview.push(format!("{} {}: {}", e.level, e.system, e.msg))
+        }
     }
 
     IncidentSummary {
@@ -41,6 +47,7 @@ pub fn summarize(inc: &Incident) -> IncidentSummary {
         systems,
         hosts,
         codes,
+        msg_preview,
     }
 }
 
@@ -86,6 +93,11 @@ pub fn print_summary(idx: usize, s: &IncidentSummary) {
 
     let mut code_vec: Vec<(&String, &usize)> = s.codes.iter().collect();
     code_vec.sort_by(|a, b| b.1.cmp(a.1).then_with(|| a.0.cmp(b.0)));
+
+    println!("  sample messages:");
+    for line in &s.msg_preview {
+        println!("      - {line}");
+    }
 
     println!("  top codes:");
     for (code, count) in code_vec.into_iter().take(5) {
