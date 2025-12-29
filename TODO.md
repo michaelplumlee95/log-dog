@@ -20,7 +20,7 @@ Items are ordered roughly by priority and learning value.
 
 ### Incident Logic Refinement
 
-- [ ] Decide when an incident should *start*
+- [x] Decide when an incident should *start*
   - Options to explore:
     - First `WARN` or `ERROR`
     - Severity threshold
